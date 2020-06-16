@@ -1,3 +1,42 @@
+.title {
+  font-size: 3em;
+  color:#5c1191;
+}
+
+.container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius:5px;
+  background: #f6bfff;
+  border-style: solid;
+  border-width: thin;
+  margin:20px;
+}
+
+.list {
+  display:flex;
+  flex-wrap: wrap;
+  padding:10px;
+  margin:10px;
+}
+
+.item {
+  display:flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  flex:1;
+  border-radius: 3px;
+  background: #a0a0fa;
+  padding:10px;
+  margin:10px;
+  border-style: solid;
+  border-width: thin;
+}
+
 .App {
   text-align: center;
 }
