@@ -1,3 +1,11 @@
+# React Song List
+A React app that lists the UK top 20 iTunes songs using an API. The aim of the app was to demonstrate passing data between components in the React framework.
+
+## The app carries out the following
+* Gets a list of the iTunes UK top 20 songs
+* Allows the user to filter the list by genre
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
