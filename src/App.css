@@ -14,6 +14,9 @@
   margin:20px;
 }
 
+.select {
+  font-size: 1.5em;
+}
 .list {
   display:flex;
   flex-wrap: wrap;
