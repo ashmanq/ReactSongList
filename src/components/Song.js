@@ -7,7 +7,7 @@ const Song = ({ song, position }) => {
 
   return (
     <li className="item">
-      <h2>Chart Position: { position }</h2>
+      <h2>{ position }</h2>
       <h3>{ song['im:name'].label }</h3>
       <img src={ song['im:image'][2].label } alt=""/>
       <h3>{ song['im:artist'].label }</h3>
